@@ -39,7 +39,6 @@ class _CardWidgetState extends State<CardWidget> with TickerProviderStateMixin  
               _translationY += p.delta.dy;
 
             }else if(_translationY <= -70){
-              
               _translationY += 1;
             }else {
               _translationY -= 1;
